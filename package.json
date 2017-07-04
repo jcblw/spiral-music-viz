@@ -1,0 +1,25 @@
+{
+  "name": "spiral-music-viz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify src/index.js > bundle.js",
+    "watch": "watchify src/index.js > bundle.js",
+    "dev": "budo src/index.js --live"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "color": "^2.0.0",
+    "getusermedia": "^2.0.1",
+    "sound-board": "^2.2.3"
+  },
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "budo": "^10.0.3",
+    "watchify": "^3.9.0"
+  }
+}
